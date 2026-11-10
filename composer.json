@@ -1,0 +1,83 @@
+{
+    "name": "cengizkemec/flarum-social",
+    "description": "Discord-inspired social community platform for Flarum 2.0: public visitor browsing, social feed, media, rooms, voice, messaging, moderation and full ACP.",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "social",
+        "community",
+        "voice",
+        "chat",
+        "feed",
+        "media",
+        "livekit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cengiz Kemec"
+        }
+    ],
+    "homepage": "https://github.com/cengizkemec/flarum-social",
+    "support": {
+        "issues": "https://github.com/cengizkemec/flarum-social/issues",
+        "source": "https://github.com/cengizkemec/flarum-social",
+        "docs": "https://github.com/cengizkemec/flarum-social/tree/main/docs"
+    },
+    "require": {
+        "php": "^8.3",
+        "flarum/core": "^2.0"
+    },
+    "suggest": {
+        "league/flysystem-aws-s3-v3": "Required only when using S3-compatible media storage.",
+        "aws/aws-sdk-php": "Required only when using S3-compatible media storage.",
+        "flarum/messages": "Use Flarum's native inbox for the Social messages section.",
+        "fof/forum-widgets-core": "Render homepage widgets in the Social right rail.",
+        "fof/news-widget": "Show the FoF news fader at the top of Social.",
+        "datlechin/flarum-link-preview": "Render link preview cards for external links in Social posts."
+    },
+    "autoload": {
+        "psr-4": {
+            "CengizKemec\\Social\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flarum Social",
+            "category": "feature",
+            "database-support": [
+                "MySQL",
+                "MariaDB",
+                "PostgreSQL",
+                "SQLite"
+            ],
+            "icon": {
+                "name": "fas fa-users",
+                "backgroundColor": "#5865F2",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": false,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": true,
+                "editorConfig": true,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
