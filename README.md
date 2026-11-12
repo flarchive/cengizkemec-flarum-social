@@ -2,18 +2,13 @@
 
 > **Read-only archive of released versions of cengizkemec/flarum-social.** Not for installation: use [Packagist](https://packagist.org/packages/cengizkemec/flarum-social) or the [upstream repository](https://github.com/cengizkemec/flarum-social).
 
-**6** versions archived · Latest: [`v1.1.5`](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.5) · License: `MIT` · Flarum: `^2.0`
+**0** versions archived · Latest: [`v1.1.8`](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.8) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| `v1.1.0` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.0) |
-| `v1.1.1` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.1) |
-| `v1.1.2` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.2) |
-| `v1.1.3` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.3) |
-| `v1.1.4` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.4) |
-| `v1.1.5` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.5) |
+| — | — | — | — |
 
 Catalog entry: [packages/cengizkemec-flarum-social.json](https://github.com/flarchive/archive-index/blob/main/packages/cengizkemec-flarum-social.json)
 
