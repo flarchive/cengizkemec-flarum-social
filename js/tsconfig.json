@@ -1,0 +1,17 @@
+{
+  "extends": "flarum-tsconfig",
+  "include": ["src/**/*", "@types/**/*"],
+  "compilerOptions": {
+    "declarationDir": "./dist-typings",
+    "jsx": "react",
+    "jsxFactory": "m",
+    "jsxFragmentFactory": "m.Fragment",
+    "allowJs": true,
+    "checkJs": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "paths": {
+      "flarum/*": ["./node_modules/flarum-tsconfig/types/*"]
+    }
+  }
+}
