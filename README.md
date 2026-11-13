@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of cengizkemec/flarum-social.** Not for installation: use [Packagist](https://packagist.org/packages/cengizkemec/flarum-social) or the [upstream repository](https://github.com/cengizkemec/flarum-social).
 
-**0** versions archived · Latest: [`v1.1.17`](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.17) · License: `MIT` · Flarum: `^2.0`
+**18** versions archived · Latest: [`v1.1.17`](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.17) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.1.0` | 2026-11-10 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.0) |
+| `v1.1.1` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.1) |
+| `v1.1.10` | 2026-11-13 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.10) |
+| `v1.1.11` | 2026-11-13 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.11) |
+| `v1.1.12` | 2026-11-13 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.12) |
+| `v1.1.13` | 2026-11-13 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.13) |
+| `v1.1.14` | 2026-11-13 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.14) |
+| `v1.1.15` | 2026-11-13 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.15) |
+| `v1.1.16` | 2026-11-13 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.16) |
+| `v1.1.2` | 2026-11-12 | `^2.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-social/tree/archive/v1.1.2) |
+
+[View all 18 versions](https://github.com/flarchive/cengizkemec-flarum-social/tags)
 
 Catalog entry: [packages/cengizkemec-flarum-social.json](https://github.com/flarchive/archive-index/blob/main/packages/cengizkemec-flarum-social.json)
 
