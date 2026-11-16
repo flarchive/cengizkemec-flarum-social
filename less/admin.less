@@ -1,0 +1,441 @@
+.SocialAdminPage {
+  padding: 10px 32px 40px;
+}
+
+@media (max-width: 767px) {
+  .SocialAdminPage {
+    padding: 8px 16px 32px;
+  }
+}
+
+.SocialAdminTabs {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  background: var(--control-bg);
+  padding: 5px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.SocialAdminTab {
+  border: 0;
+  background: transparent;
+  color: var(--muted-color);
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--text-color);
+  }
+
+  &.is-active {
+    color: #fff;
+    background: var(--social-accent, #5865f2);
+  }
+}
+
+.SocialAdminContent {
+  max-width: 1100px;
+}
+
+.SocialAdminSectionHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+
+  h2 {
+    font-size: 20px;
+    margin: 0 0 3px;
+  }
+
+  p {
+    color: var(--muted-color);
+    font-size: 12px;
+    margin: 0;
+  }
+}
+
+.SocialAdminNote {
+  display: flex;
+  gap: 8px;
+  background: rgba(88, 101, 242, 0.1);
+  border: 1px solid rgba(88, 101, 242, 0.18);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: var(--muted-color);
+  margin-bottom: 12px;
+}
+
+.SocialAdminLoading {
+  padding: 40px;
+  text-align: center;
+  color: var(--muted-color);
+  font-size: 22px;
+}
+
+.SocialAdminCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 9px;
+  margin-bottom: 16px;
+}
+
+.SocialAdminCard {
+  background: var(--control-bg);
+  border-radius: 12px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  overflow: hidden;
+
+  strong {
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+  }
+
+  span:last-child {
+    font-size: 10px;
+    color: var(--muted-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+.SocialAdminCard-icon {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  color: var(--social-accent, #5865f2);
+  opacity: 0.35;
+  font-size: 16px;
+}
+
+.SocialAdminSplit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.SocialAdminPanel {
+  background: var(--control-bg);
+  border-radius: 13px;
+  padding: 15px;
+  margin-bottom: 12px;
+
+  h3 {
+    font-size: 14px;
+    margin: 0 0 9px;
+  }
+
+  p {
+    color: var(--muted-color);
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
+
+.SocialAdminActions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.SocialAdminStatusList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.12);
+    font-size: 12px;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.SocialAdminStatus {
+  font-size: 9px;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+  &.is-ok {
+    color: #23a55a;
+    background: rgba(35, 165, 90, 0.13);
+  }
+
+  &.is-off {
+    color: #ed4245;
+    background: rgba(237, 66, 69, 0.13);
+  }
+}
+
+.SocialAdminResult {
+  background: var(--body-bg);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 10px;
+  max-height: 260px;
+  overflow: auto;
+  margin-top: 10px;
+  white-space: pre-wrap;
+}
+
+.SocialAdminList {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.SocialAdminList-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 6px;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.1);
+  font-size: 12px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.SocialAdminList-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+
+  i {
+    color: var(--social-accent, #5865f2);
+    width: 16px;
+    text-align: center;
+  }
+
+  small {
+    color: var(--muted-color);
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.SocialAdminList-actions {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.SocialAdminList-row--editing {
+  align-items: center;
+
+  .SocialAdminList-main {
+    flex: 1;
+    gap: 6px;
+  }
+
+  .FormControl {
+    min-width: 110px;
+  }
+
+  .SocialAdminList-main .FormControl:first-child {
+    flex: 1 1 180px;
+  }
+
+  .SocialAdminList-main .FormControl + .FormControl {
+    flex: 0 1 150px;
+  }
+}
+
+.SocialAdminMuted {
+  color: var(--muted-color);
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.SocialAdminInlineForm {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+
+  .FormControl {
+    flex: 1;
+    min-width: 130px;
+  }
+
+  .SocialAdminInlineForm-icon {
+    flex: 0 1 170px;
+    min-width: 120px;
+    font-family: monospace;
+  }
+}
+
+.SocialAdminSlug {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted-color);
+  font-size: 9.5px;
+  font-weight: 500;
+}
+
+.SocialAdminGroupPicker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.SocialAdminGroupPicker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+}
+
+.SocialAdminGroupPicker-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.SocialAdminSectionActions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.SocialAdminHint {
+  margin: -4px 0 10px;
+  color: var(--muted-color);
+  font-size: 11px;
+}
+
+.FormControl--invalid {
+  border-color: #d83e3e !important;
+  box-shadow: 0 0 0 2px rgba(216, 62, 62, 0.12);
+}
+
+.SocialAdminTableWrap {
+  overflow-x: auto;
+}
+
+.SocialAdminTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+
+  th,
+  td {
+    text-align: left;
+    padding: 8px 6px;
+    border-bottom: 1px solid rgba(127, 127, 127, 0.12);
+    white-space: nowrap;
+  }
+
+  th {
+    color: var(--muted-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  i {
+    color: var(--social-accent, #5865f2);
+  }
+}
+
+.SocialAdminTable-actions {
+  display: flex;
+  gap: 3px;
+}
+
+.SocialAdminMove {
+  min-width: 28px;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+
+  &:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+}
+
+.SocialAdminLock {
+  color: var(--muted-color) !important;
+  font-size: 9px;
+  margin-left: 3px;
+}
+
+.SocialAdminRooms .SocialAdminPanel {
+  margin-top: 12px;
+}
+
+.SocialAdminPage .Form-group {
+  margin-bottom: 12px;
+}
+
+.SocialAdminPage .Form-controls {
+  position: sticky;
+  bottom: 0;
+  background: var(--body-bg);
+  padding: 10px 0;
+  z-index: 10;
+  border-top: 1px solid rgba(127, 127, 127, 0.12);
+}
+
+@media (max-width: 800px) {
+  .SocialAdminSplit {
+    grid-template-columns: 1fr;
+  }
+
+  .SocialAdminTabs {
+    position: static;
+  }
+}
+
+.SocialAdminCredit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 18px 0 4px;
+  color: var(--muted-color);
+  font-size: 11px;
+
+  a {
+    color: var(--primary-color);
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
